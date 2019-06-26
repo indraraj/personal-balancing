@@ -1,0 +1,16 @@
+.UploadSection{
+    min-height: calc(100% - 50px);
+    width: 65%;
+    background-color: rgb(237, 239, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.Content-Heading{
+    position: absolute;
+    top: 20px;
+    width: inherit;
+}

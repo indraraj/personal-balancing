@@ -1,0 +1,12 @@
+.UserProfile{
+ margin: 5px;
+}
+
+.UserProfile p{
+    margin: 0px;
+}
+
+.UserImage{
+    border-radius: 50%;
+    width: 100px;
+}

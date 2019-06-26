@@ -1,0 +1,14 @@
+.Landing{
+    min-height: calc(100% - 50px);
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    
+}
+.Search-Section{
+    min-height: calc(100% - 50px);
+    width: 35%;
+    background-color: rgb(230, 171, 171);
+    text-align: center
+}

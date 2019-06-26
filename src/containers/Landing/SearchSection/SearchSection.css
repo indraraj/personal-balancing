@@ -1,0 +1,12 @@
+.SearchSection{
+    min-height: calc(100% - 50px);
+    width: 35%;
+    background-color: rgb(230, 171, 171);
+    text-align: center;
+    padding: 10px;
+}
+
+.SearchSection div:first-child{
+    position: relative;
+    top: 10%;
+}

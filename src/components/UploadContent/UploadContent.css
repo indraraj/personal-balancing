@@ -1,0 +1,11 @@
+.UploadContent{
+    width: auto;
+    text-align: center;
+}
+.Upload-Image{
+    width: 100px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
