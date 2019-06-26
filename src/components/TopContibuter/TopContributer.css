@@ -1,0 +1,14 @@
+.TopContibuter{
+    position: absolute;
+    bottom: 5px;
+}
+
+.TopContibuter h4{
+    margin: 0px;
+    color: rgb(206, 186, 12);
+}
+
+.UserList{
+    display: flex;
+    flex-flow: row;
+}

@@ -1,0 +1,9 @@
+.TopTrends{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.TopTrends p{
+    padding: 0 10px;
+}
