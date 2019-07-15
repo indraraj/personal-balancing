@@ -1,10 +1,17 @@
-import React from "react"
-import "./BorderButton.css"
+import React, {Fragment, useRef} from "react";
+import "./BorderButton.css";
 
-const borderButton = (props) => {
+const BorderButton = (props) => {
+    const inputRef = useRef(null);
+    const selectFile = (e) =>{
+        inputRef.current.click();
+    }
     return(
-        <button className="BorderButton">{props.children}</button>
+        <Fragment>
+            <button className="BorderButton" onClick={selectFile}>{props.children}</button>
+            {props.inputType === 'file' ? (<input type={props.inputType} className="FileInput" name="name" ref={inputRef}/>) : null }
+        </Fragment>
     );
 }
 
-export default borderButton;
+export default BorderButton;

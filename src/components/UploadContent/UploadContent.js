@@ -9,7 +9,7 @@ const uploadContent =(props) => {
             <img className="Upload-Image" src={UploadLogo} alt="Upload File"/>
             <h2>Drag & Drop file here</h2>
             <h4>or</h4>
-            <BorderButton>Browse Files</BorderButton>
+            <BorderButton inputType="file">Browse Files</BorderButton>
         </div>
     );
 }

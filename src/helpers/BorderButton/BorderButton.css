@@ -5,3 +5,7 @@
     background-color: white;
     border-radius: 5px;
 }
+
+.FileInput{
+    display: none
+}
