@@ -4,6 +4,17 @@
     background-color: rgb(230, 171, 171);
     text-align: center;
     padding: 10px;
+    /* -webkit-transition: width 1s; 
+    transition: width 1s; */
+}
+.SearchSectionTransition{
+    min-height: calc(100% - 50px);
+    width: 100%;
+    background-color: rgb(230, 171, 171);
+    text-align: center;
+    padding: 10px;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
 }
 
 .SearchSection div:first-child{
