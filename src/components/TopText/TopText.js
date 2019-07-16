@@ -1,10 +1,14 @@
-import React from "react"
-import "./TopText.css"
+import React from "react";
+import { withRouter } from 'react-router-dom';
+import "./TopText.css";
 
 const toptext = (props) =>{
+    const onLoginClickHandler = () => {
+        props.history.push('/login')
+    }
     return(
-        <h4 className="TopText">{props.children}</h4>
+        <h4 className="TopText" onClick={onLoginClickHandler}>{props.children}</h4>
     )
 }
 
-export default toptext;
+export default withRouter(toptext);

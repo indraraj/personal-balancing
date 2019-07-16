@@ -1,9 +1,14 @@
 import React from 'react';
-import Layout from './containers/Layout/Layout'
+import Layout from './containers/Layout/Layout';
+import Login from './containers/Login/Login';
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Layout></Layout>
+    <Switch>
+      <Route path="/login" component={Login}></Route>
+      <Route path="" component={Layout}></Route>
+    </Switch>
   );
 }
 

@@ -1,0 +1,19 @@
+.LoginBox{
+    width: calc(26vw);
+    text-align: center;
+    color: darkgray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.LoginBox h2{
+    margin: 0;
+}
+.LoginBox h4{
+    margin: 10px
+}
+.LoginDisclaimer{
+    font-size: small;
+    font-style: italic;
+}
