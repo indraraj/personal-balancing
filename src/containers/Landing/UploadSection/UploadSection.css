@@ -9,6 +9,10 @@
     padding: 10px;
 }
 
+.HideUploadSection{
+    display: none;
+}
+
 .Content-Heading{
     position: absolute;
     top: 20px;
