@@ -1,0 +1,8 @@
+.LoginFormButton{
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    margin-top: 15px;
+}
