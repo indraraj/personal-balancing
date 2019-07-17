@@ -9,7 +9,6 @@ const topContributer = (props) =>{
             <h4>Hero Contibuter</h4>
             <div className="UserList">
             {userList.map(e =>{
-                    console.log('user',e);
                     return  (<UserProfile key={`user${e}`} user={e}></UserProfile>)
             })}
             </div>
