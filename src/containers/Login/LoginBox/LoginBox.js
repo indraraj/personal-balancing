@@ -13,7 +13,7 @@ const LoginBox = (props) =>{
         <WhiteBox>
             <div className='LoginBox'>
                 <h2>Log into Kazerian Box</h2>
-                <h4>or <u>Create Account</u></h4>
+                <h4>or <u className='CreateAccountLink' onClick={props.showSignin}>Create Account</u></h4>
                 <LoginInput placeholderText='Email Address' inputType='email'></LoginInput>
                 <LoginInput placeholderText='Password' inputType='password'></LoginInput>
                 <LoginFormButton loginFormBtnHandler={authContext.userLoginHandler}>Log In</LoginFormButton>
