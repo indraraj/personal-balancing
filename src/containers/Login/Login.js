@@ -9,9 +9,9 @@ state = {
     showLogin: true
 }
 toggleShowLogin = () =>{
-    this.setState((prevState, props)=>{
+    this.setState((prevState)=>{
         return {
-            showLogin: !prevState
+            showLogin: !prevState.showLogin
         }
     })
 }
