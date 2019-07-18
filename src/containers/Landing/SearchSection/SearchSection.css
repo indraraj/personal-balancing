@@ -1,7 +1,7 @@
 .SearchSection{
     min-height: calc(100% - 50px);
     width: 35%;
-    background-color: rgb(230, 171, 171);
+    background-color: #fbb03b;
     text-align: center;
     padding: 10px;
     /* -webkit-transition: width 1s; 
@@ -10,7 +10,7 @@
 .SearchSectionTransition{
     min-height: calc(100% - 50px);
     width: 100%;
-    background-color: rgb(230, 171, 171);
+    background-color: #fbb03b;
     text-align: center;
     padding: 10px;
     -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */

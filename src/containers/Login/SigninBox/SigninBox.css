@@ -1,4 +1,4 @@
-.LoginBox{
+.SigninBox{
     width: calc(26vw);
     text-align: center;
     color: darkgray;
@@ -7,13 +7,13 @@
     flex-direction: column;
 }
 
-.LoginBox h2{
+.SigninBox h2{
     margin: 10;
 }
-.LoginBox h4{
+.SigninBox h4{
     margin: 0px
 }
-.CreateAccountLink{
+.LoginLink{
     cursor: pointer;
 }
 .LoginDisclaimer{
