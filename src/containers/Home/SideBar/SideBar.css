@@ -1,0 +1,34 @@
+.SideBar{
+    /* background-color: #ffc466; */
+    background-color: #fbb03b;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+}
+
+.SideBarHead{
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.SideBarContent{
+    margin: 25px 10px;
+    color: white;
+}
+
+.SideBarContent p{
+    margin: 5px;
+}
+
+.SideBar div{
+    display: flex;
+    flex-flow: column;
+}
+
+@media (max-width: 1086px){
+    .SideBar{
+        width: 25%;
+    }
+}
