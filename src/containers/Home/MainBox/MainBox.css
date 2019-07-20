@@ -4,6 +4,11 @@
     color: #637282;
 }
 
+.MainBox u{
+    color: #0070e0;
+    cursor: pointer;
+}
+
 .ContentBox{
     width: 100%;
     display: flex;
@@ -24,19 +29,26 @@
 .HomeContent>div>div{
     margin: 10px 0px;
 }
-
-.page-welcome{
-    border-bottom: 1px solid #637282;
-}
-.page-welcome h2{
-    margin: 0px;
-}
 .HomeContent h2 span{
     font-weight: 400;
     font-size: .6em;
 }
 
-@media (max-width: 1025px){
+/* @media (max-width: 1325px){
+    .HomeContent{
+        width: 75%;
+        margin-right: 25%;
+    }
+} */
+
+@media (max-width: 1225px){
+    .HomeContent{
+        width: 76%;
+        margin-right: 24%;
+    }
+}
+
+@media (max-width: 1055px){
     .MainBox{
         width: 75%;
     }

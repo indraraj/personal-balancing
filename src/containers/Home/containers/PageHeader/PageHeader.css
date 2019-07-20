@@ -2,7 +2,7 @@
     width: calc(100% - 40px);
     position: sticky;
     top: 0;
-    padding: 30px 20px;
+    padding: 30px 20px 20px 20px;
     background-color: white;
     color: black;
     display: flex;
@@ -14,6 +14,7 @@
     font-size: 25px;
     color: #737373;
     margin: 0px 5px;
+    cursor: pointer;
 }
 
 .RightItems{

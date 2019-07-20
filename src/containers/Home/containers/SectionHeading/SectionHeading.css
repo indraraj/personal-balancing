@@ -1,0 +1,14 @@
+
+.page-welcome{
+    border-bottom: 1px solid #637282;
+}
+.page-welcome h2{
+    margin: 0px;
+}
+
+.hide-section{
+    float: right;
+    margin-top: 10px;
+    color: #0070e0;
+    cursor: pointer;
+}
