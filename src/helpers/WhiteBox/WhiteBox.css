@@ -6,3 +6,11 @@
     box-shadow: 4px 5px 5px lightgray;
     /* opacity: 0.4; */
 }
+
+@media only screen 
+    and (max-width : 500px) 
+    { 
+        .WhiteBox{
+            padding: 10px 30px;
+        }
+    }

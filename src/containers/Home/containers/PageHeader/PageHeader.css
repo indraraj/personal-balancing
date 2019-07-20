@@ -1,0 +1,33 @@
+.PageHeader{
+    width: calc(100% - 40px);
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FaBell{
+    font-size: 25px;
+    color: #737373;
+    margin: 0px 5px;
+}
+
+.RightItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.PageHeader h4{
+    margin: 0; 
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.PageHeader p{
+    margin: 0px;
+}

@@ -1,0 +1,47 @@
+.MainBox{
+    overflow-y:auto;
+    width: 85%;
+    color: #637282;
+}
+
+.ContentBox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.HomeContent{
+    overflow-y:auto;
+    width: 80%;
+    margin-right: 20%;
+}
+
+.HomeContent>div{
+    padding: 0px 15px;
+    width: calc(100%-30px);
+}
+
+.HomeContent>div>div{
+    margin: 10px 0px;
+}
+
+.page-welcome{
+    border-bottom: 1px solid #637282;
+}
+.page-welcome h2{
+    margin: 0px;
+}
+.HomeContent h2 span{
+    font-weight: 400;
+    font-size: .6em;
+}
+
+@media (max-width: 1025px){
+    .MainBox{
+        width: 75%;
+    }
+    .HomeContent{
+        width: 100%;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,26 @@
+.HeaderSearch{
+   position: relative;
+}
+
+.HeaderSearch input{
+    padding-left: 25px;
+    height: 25px;
+    width: 180px;
+    border: 1px darkgrey solid;
+    border-radius: 13px;
+    margin: 0 10px;
+}
+
+.HeaderSearch input:focus{
+    outline: none;
+    width: 350px;
+    margin: 0 5px;
+}
+
+.FaSearch{
+    top: 7px;
+    position: absolute;
+    font-size: 13px;
+    color: #737373;
+    left: 20px;
+}
