@@ -9,8 +9,7 @@ const Toptext = (props) =>{
         if(props.children === 'Login'){
             props.history.push('/login')
         }else if(props.children === 'Logout'){
-            authContext.userLoginHandler();
-            props.history.push('/')
+            authContext.userLoginHandler(authContext.loginState);
         }
     }
     return(

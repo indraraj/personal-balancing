@@ -7,7 +7,7 @@ const ActionMenu = ( ) =>{
             <button>Create new Doc</button>
             <ul>
                 <li className='CreateFolder'><span>Create new Folder</span></li>
-                <li className='CreateTemplate'><sapn>Create with template</sapn></li>
+                <li className='CreateTemplate'><span>Create with template</span></li>
                 <li className='CreateNotes'><span>Create meeting notes</span></li>
             </ul>
         </div>

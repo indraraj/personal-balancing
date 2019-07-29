@@ -16,7 +16,7 @@ const LoginBox = (props) =>{
                 <h4>or <u className='CreateAccountLink' onClick={props.showSignin}>Create Account</u></h4>
                 <LoginInput placeholderText='Email Address' inputType='email'></LoginInput>
                 <LoginInput placeholderText='Password' inputType='password'></LoginInput>
-                <LoginFormButton loginFormBtnHandler={authContext.userLoginHandler}>Log In</LoginFormButton>
+                <LoginFormButton loginFormBtnHandler={() => authContext.userLoginHandler(authContext.loginState)}>Log In</LoginFormButton>
                 <p> or continue with.</p>
                 <SocialMedia></SocialMedia>
                 <p className='LoginDisclaimer'>Secure login for extra security with kazerian love.</p>
