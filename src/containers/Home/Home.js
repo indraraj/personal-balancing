@@ -6,11 +6,11 @@ import SideBar from './SideBar/SideBar';
 
 class Home extends Component{
     static contextType = AuthContext;
-    // componentDidMount(){
-    //     if(!this.context.loginState){
-    //         this.props.history.push('/');
-    //     }
-    // }
+    componentDidMount(){
+        if(!this.context.loginState){
+            this.props.history.push('/');
+        }
+    }
     render(){
         return(
             <div className='Home'>

@@ -6,9 +6,10 @@ import AuthContext from './context/auth-context';
 
 function App(props) {
   const [loginState,setLoginState] = useState(false);
-  const userLoginHandler = () =>{
-    setLoginState(!loginState);
-    props.history.push('/Home');
+  const userLoginHandler = (currentLoginState) =>{
+    setLoginState(!currentLoginState);
+    localStorage.setItem('storedLoginState', !currentLoginState);
+    currentLoginState ? props.history.push('/') : props.history.push('/Home');
   }
   return (
     <AuthContext.Provider value={{loginState: loginState, userLoginHandler: userLoginHandler}}>

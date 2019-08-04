@@ -8,6 +8,9 @@ class Login extends Component{
 state = {
     showLogin: true
 }
+componentDidMount(){
+    localStorage.getItem('storedLoginState') === 'true' && this.props.history.push('/Home');
+}
 toggleShowLogin = () =>{
     this.setState((prevState)=>{
         return {
